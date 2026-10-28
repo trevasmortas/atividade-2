@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>cadastro customizado</h1>
+
+    <form>
+
+        <!-- input nome -->
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="não digite seu nome" required>
+
+        <!-- input email -->
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="digite seu email" required>
+
+        <!-- input senha -->
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password" placeholder="data de nascimento" required>
+
+        <label for="cidade">Cidade: </label>
+        <select name="cidade" id="cidade">
+            <option>Londrina</option>
+            <option>Godzilla</option>
+            <option>algumas outras cidades...</option>
+            <option>Alien</option>
+        </select>
+
+        <label for="curso">Sexo</label>
+        <input type="radio" name="curso">
+        Não gosto
+        <input type="radio" name="curso">
+        Muito
+        <input type="radio" name="curso">
+        Ás vezes
+        <input type="radio" name="curso">
+        Masculino
+        <input type="radio" name="curso">
+        Feminino
+        <input type="radio" name="curso">
+        Outro
+
+        <!--input checkbox -->
+        <label>
+            <input type="checkbox" name="termos" id="termos" required>
+            Rejeito os termos
+        </label>
+
+</body>
+</html>
